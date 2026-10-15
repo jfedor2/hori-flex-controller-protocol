@@ -1,0 +1,2 @@
+# Put this in /etc/udev/rules.d/ to give the logged in user access to the Hori Flex PC interface
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0168", TAG+="uaccess"
